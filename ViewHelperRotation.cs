@@ -11,6 +11,7 @@ public class ViewHelperRotation : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
+        Debug.Log("Camera Found");
     }
 
     // Update is called once per frame
